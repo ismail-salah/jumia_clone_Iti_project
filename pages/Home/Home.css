@@ -1,0 +1,54 @@
+:root {
+  --btn-color: #e07e1b;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.price {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 1;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.lang {
+  background-color: #f1f1f2;
+  width: 100%;
+}
+
+/* Home */
+
+.main {
+  min-height: 100vh;
+  background: center 0 no-repeat url("../../assets//imgs/new.jpg") #fe9900;
+  /* min-width: 1200px; */
+}
+
+.cate-home:hover {
+  color: #ff9900;
+  cursor: pointer;
+}
+
+.keep-img:hover {
+  box-shadow: 4px 4px 4px 4px rgba(0, 0, 0, 0.125);
+  /* border: 1px solid rgba(0, 0, 0, 0.125); */
+  scale: 1.01;
+}
+
+.prev-price {
+  text-decoration: line-through;
+}
+
+.eximg {
+  width: 170px;
+  height: 193px;
+}
+
+.eximg:hover {
+  scale: 1.01;
+}

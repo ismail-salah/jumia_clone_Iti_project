@@ -1,0 +1,11 @@
+/* 
+.mdb-form-control:focus:not(:placeholder-shown) ~ .form-outline .form-notch-leading,
+.mdb-form-control:focus:not(:placeholder-shown) ~ .form-outline .form-notch-middle,
+.mdb-form-control:focus:not(:placeholder-shown) ~ .form-outline .form-notch-trailing,
+.mdb-form-control:focus:not(:placeholder-shown) ~ .form-outline label {
+  color: #f8972d !important;
+}
+
+.mdb-form-control:focus:not(:placeholder-shown) ~ .form-outline {
+  --mdb-primary: #f8972d;
+} */

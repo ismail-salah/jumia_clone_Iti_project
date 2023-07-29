@@ -1,0 +1,49 @@
+/* Nav */
+
+/* .navbar{
+    height: 65px;
+  } */
+
+  .sign-in-btn {
+    background-color: var(--btn-color);
+  }
+  
+  .btn:not(.search-btn):hover {
+    background-color: var(--btn-color) !important;
+  }
+  
+  .acc-drop:hover,
+  .help:hover,
+  .cart:hover {
+    color: var(--btn-color) !important;
+  }
+  .logo {
+    max-width: 200px;
+    height: 70px;
+  }
+  
+  .search-btn {
+    background-color: var(--btn-color);
+    box-shadow: 1px 2px 1px 2px rgba(0, 0, 0, 0.125);
+  }
+  
+  .search-btn:hover {
+    background-color: #f07102;
+  }
+  
+  .fa-question {
+    border: 1px solid black;
+    border-radius: 50%;
+  }
+  
+  input.form-control:focus {
+    box-shadow: none !important;
+  }
+  input.form-control {
+    width: 400px;
+  }
+  
+  .inpmail:focus {
+    border: 1px solid var(--btn-color);
+  }
+  

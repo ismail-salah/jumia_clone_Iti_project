@@ -1,0 +1,35 @@
+/* .MDBInput:focus {
+    border-color: #f8972d;
+  }
+  .MDBInput:focus label {
+    color: #f8972d;
+  }
+
+
+.input-group input:focus::placeholder {
+  color: orange;
+}
+
+.input-group input:focus {
+  border-color: orange;
+}
+
+.input-group input.is-touched,
+.input-group input.is-touched:focus {
+  border-color: orange !important;
+  box-shadow: none !important;
+} */
+
+
+
+/* Add this to your CSS file */
+.mdb-form-control:focus:not(:placeholder-shown) ~ .form-outline .form-notch-leading,
+.mdb-form-control:focus:not(:placeholder-shown) ~ .form-outline .form-notch-middle,
+.mdb-form-control:focus:not(:placeholder-shown) ~ .form-outline .form-notch-trailing,
+.mdb-form-control:focus:not(:placeholder-shown) ~ .form-outline label {
+  color: #f8972d !important;
+}
+
+.mdb-form-control:focus:not(:placeholder-shown) ~ .form-outline {
+  --mdb-primary: #f8972d;
+}

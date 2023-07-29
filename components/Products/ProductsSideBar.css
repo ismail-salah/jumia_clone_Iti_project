@@ -1,0 +1,9 @@
+.cat-sidebar .category-links p{
+    padding: 0.5rem;
+    transition: 0.1s ease ;
+}
+
+.cat-sidebar .category-links p:hover{
+    background-color:#9F9F9F;
+    color: white;
+}

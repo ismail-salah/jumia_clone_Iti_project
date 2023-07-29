@@ -1,0 +1,31 @@
+/* footer */
+
+.logowite {
+  width: 160px;
+  height: 32px;
+}
+
+li {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.join-ico:hover {
+  color: var(--btn-color);
+  cursor: pointer;
+}
+
+.font-s {
+  font-size: 13px;
+}
+.story-pay {
+  height: 55px;
+  text-align: center;
+}

@@ -1,0 +1,12 @@
+.sorted a:hover {
+  text-decoration: none;
+  cursor: pointer;
+  font-weight: bold;
+}
+.products-title {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 1;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}

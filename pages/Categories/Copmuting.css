@@ -1,0 +1,29 @@
+.custom-img-size {
+  width: 150px; /* Set your desired width */
+  height: 150px; /* Set your desired height */
+  overflow: hidden;
+}
+
+.custom-text-size {
+  max-width: auto;
+  max-height: 300px;
+  object-fit: fill; /* Adjust to your needs */
+}
+
+/* .truncate {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  } */
+
+.truncate {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.custom-color {
+  color: red;
+}

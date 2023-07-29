@@ -1,0 +1,34 @@
+.fix-display {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 0.5rem 3rem;
+    padding: 1.1rem;
+    transition: 0.5s ease;
+  }
+  
+  
+  .fix-display:hover, .active{
+  
+      border-radius: 30px;
+      color: white;
+      background-color: black;
+      cursor: pointer;
+  }
+  
+  
+  .fix-display i {
+      font-size: 25px;
+  }
+  
+  
+  section button{
+      border-radius: 30px !important;
+  }
+  section button h2{
+      border-radius: 30px !important;
+      padding: 1.2rem;
+  }
+  section button:hover{
+      background-color: black !important;
+  }

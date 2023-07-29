@@ -1,0 +1,33 @@
+/* .MDBInput:focus {
+    border: 1px solid #f8972d;
+    box-shadow: 0 0 0 0.2rem rgba(248, 151, 45, 0.25);
+  }
+  .MDBInput:focus label {
+    color: #f8972d;
+  }
+
+   */
+ .strength-bar {
+    display: flex;
+  }
+  
+  .strength-bar .bar {
+    flex: 1;
+    height: 3px;
+    margin-right: 5px;
+  }
+  
+  .strength-bar .bar:first-child {
+    background-color: #b81a0a;
+  }
+  
+  .strength-bar.good .bar:nth-child(1),
+  .strength-bar.good .bar:nth-child(2) {
+    background-color: #f68b1e;
+  }
+  
+  .strength-bar.strong .bar:nth-child(1),
+  .strength-bar.strong .bar:nth-child(2),
+  .strength-bar.strong .bar:nth-child(3) {
+    background-color: #6dbd28;
+  }

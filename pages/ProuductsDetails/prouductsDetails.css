@@ -1,0 +1,50 @@
+.text-larger{
+    font-size: 30px;
+  }
+  .text-larger:hover{
+    color: orange;
+  }
+  .icon-heart{
+    color: orange;
+  }
+  .star-icon{
+    color: orange;
+    
+  }
+  .cursor-pointer{
+    cursor:pointer;
+  }
+  .p-color{
+    color: rgb(179, 144, 81); 
+    font-size: 12px;
+  }
+  .font12{
+    font-size: 12px;
+  }
+  .bg-orange{
+  
+  
+  background-color: orange !important; 
+  }
+  .bg-orange:hover{
+  
+    background-color: rgb(224, 155, 25) !important; 
+    }
+    select {
+      outline: solid rgb(156, 152, 152) 1px;
+    }
+    
+    select:focus{
+      outline: solid orange 1px;
+  
+    }
+    .width49{
+      width: 49% !important;
+    }
+    .font1{
+      font-size: 1px;
+    }
+
+    .star-edit{
+      color: rgba(255, 166, 0, 0.26) !important;
+    }

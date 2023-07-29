@@ -1,0 +1,66 @@
+body {
+  background: rgb(240, 240, 240);
+}
+
+.chechout {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 95%;
+  min-height: 300px;
+  margin: 10px auto;
+  border-radius: 5px;
+  padding-bottom: 10px;
+}
+
+.imgcard {
+  margin-bottom: 1%;
+  background: #ffffff;
+}
+
+.itemCard {
+  text-align: center;
+
+  background: #ffffff;
+}
+
+.itemCard p {
+  font-size: 14px;
+}
+
+/* .btn{
+        background:#f9922b;
+
+    } */
+.buttonSTART {
+  border: none;
+  cursor: pointer;
+  outline: none;
+  background: #f68b1e;
+  color: #fff;
+  text-transform: capitalize;
+}
+.complete {
+  text-decoration: line-through;
+  opacity: 0.4;
+}
+
+.item-img {
+  width: 12rem;
+  height: 15rem;
+  margin-bottom: 1%;
+  background: #ffffff;
+}
+
+.item-img:hover {
+  box-shadow: 4px 4px 4px 4px rgba(0, 0, 0, 0.125);
+  /* border: 1px solid rgba(0, 0, 0, 0.125); */
+  margin-bottom: 1rem;
+  scale: 1.01;
+}
+
+.Check {
+  width: 95%;
+
+  text-align: center;
+}
